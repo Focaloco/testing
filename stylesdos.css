@@ -1,0 +1,148 @@
+html{
+    font-size: 90%;
+}
+body{
+    background-color: #a9e9a4;
+}
+.titles {
+    background-color: rgb(110, 224, 144);
+    text-align: center;
+    margin: 0px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: rgb(72, 167, 72);
+}
+
+
+.firstbox {
+    background-color: #77dd77;
+    text-align: center;
+    margin: 0px;
+    border-style: dotted ;
+    border-width: 5px;
+    border-color: #ff9800;
+    
+}
+
+.upmain{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.picbox{
+    display: grid;
+    grid-template-columns: 15px 800px;
+    grid-template-rows: 200px 600px;
+    
+}
+
+.box{
+    display: grid;
+    border: 1px solid #ffa424;
+    align-self: auto;
+     
+}
+
+a{
+    background-color: rgb(254, 133, 77);
+    color: rgb(235, 227, 111);
+    border: 1px solid rgb(231, 237, 115);
+    padding: 2px ;
+
+    transition-property: all;
+    transition-duration: 50ms;
+    transition-timing-function: ease;
+    transition-delay: 30ms;
+}
+
+a:hover{
+    background-color: rgb(234, 160, 76);
+    color:#ffa424;
+    padding: 4px 7px;
+    border: 1px solid ;
+
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+    transition-delay: 50ms;
+}
+
+footer{
+    background-color: #77dd77;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+      
+}
+
+.socialmedia{
+   display: grid;
+   align-self: flex-start ;
+}
+
+.abouts{
+    display: grid;
+    align-self: flex-end;
+    
+}
+
+.logos{
+    display: grid;
+    justify-content: center;
+
+}
+
+
+img{
+    border-radius: 50%;
+    width: 30px;
+    height:50px;
+}
+
+
+#prueba{
+    background-color: rgb(126, 188, 50);
+    color: rgb(161, 20, 119);
+    padding: 4px 7px;
+    border: 1px solid violet;
+
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+    transition-delay: 50ms;
+}
+
+#prueba:hover{
+    background-color: rgb(149, 55, 231);
+    color: rgb(204, 245, 170);
+    padding: 4px 7px;
+    border: 1px solid violet;
+
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+    transition-delay: 50ms;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 1px;
+    margin-inline-end: 1px
+}
+
+@media screen and (max-width: 640px) {
+    .picbox {
+    background: blue;
+    }
+    }
+    @media screen and (min-width: 640px) and (max-width: 1280px) {
+    .picbox {
+    background: red;
+    }
+    }
+    @media screen and (min-width: 1280px) {
+    .picbox {
+    background: green;
+    }
+    }
